@@ -1,3 +1,8 @@
+**Note:** This is a fork of markwal's original PortLister plugin that merges in the retry logic
+from synman. This is needed for my Monoprice Select Mini v2 when the printer is restarted.
+I have pushed this to my personal fork so I can update this plugin on OctoPrint. If the retry
+logic gets merged into the original repo I'll drop this fork.
+
 # OctoPrint-PortLister
 
 Have you noticed that if you load up the OctoPrint web page when your printer is
@@ -18,7 +23,7 @@ anybody uses this plugin besides me, I could be talked into a settings page.
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/markwal/OctoPrint-PortLister/archive/master.zip
+    https://github.com/allanglen/OctoPrint-PortLister/archive/master.zip
 
 ## Configuration
 
